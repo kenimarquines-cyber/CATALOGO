@@ -96,7 +96,7 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 12px;
-            background: rgba(255,255,255,0.05);
+            background: rgba(22, 20, 20, 0.05);
             padding: 12px;
             border-radius: 15px;
         }
@@ -112,7 +112,7 @@
         #overlay {
             position: absolute;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0, 0, 0, 0.9);
+            background: rgba(15, 15, 15, 0.9);
             display: none;
             flex-direction: column;
             justify-content: center;
@@ -288,7 +288,7 @@ function cambiar(nombre, valor) {
 }
 
 function vaciarCarrito() {
-    if(confirm("¿Deseas vaciar el carrito?")) { carrito = {}; actualizarContador(); regresar(); }
+    if(confirm("¿Deseas vaciar el carrito?.")) { carrito = {}; actualizarContador(); regresar(); }
 }
 
 /* LÓGICA DE CONFIRMACIÓN */
